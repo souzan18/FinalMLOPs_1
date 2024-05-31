@@ -61,7 +61,7 @@ This application performs sentiment analysis on product reviews. Users can input
 
 1. **Build the Docker image**:
     ```sh
-    docker build -t my-flask-app .
+    docker build -t sentimentanalysisapp .
     ```
 
 2. **Run the Docker container**:
