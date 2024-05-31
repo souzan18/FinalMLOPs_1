@@ -13,3 +13,4 @@ tqdm==4.66.4
 Werkzeug==3.0.3
 tensorflow==2.15.0
 scikit-learn
+gunicorn
