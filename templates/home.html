@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Sentiment Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .instructions {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .button-container a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .button-container a:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Amazon Review Sentiment Analysis</h1>
+        <div class="instructions">
+            <p>Welcome to the   Amazon Review Sentiment Analysis application!</p>
+            <p>To use this app, simply enter your product review in the text box on the next page. Here are some guidelines to help you input the data correctly:</p>
+            <ul>
+                <li>Write a detailed review of the product, similar to reviews you see on e-commerce websites.</li>
+                <li>Focus on your experience with the product, including any features you liked or disliked.</li>
+                <li>Do not include numbers or special characters in your review. Use only letters and spaces.</li>
+                <li>Here are some examples of invalid reviews:
+                    <ul>
+                        <li>"Great product! 100% satisfied!! #awesome"</li>
+                        <li>"The price was $299.99 but totally worth it!!"</li>
+                        <li>"Loved it!!! <3 <3 <3" </li>
+                    </ul>
+                </li>
+                
+                <li>Here are some examples of valid reviews:
+                    <ul>
+                        <li>"The phone never skips a beat. File transfers are speedy with no corruption issues."</li>
+                        <li>"Purchased this device and it worked as advertised. Never had much phone memory before but this is a no-brainer."</li>
+                        <li>"Works as expected. Higher capacity and seems well-made. Paint looks clean."</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>After you submit your review, the application will analyze the sentiment and display whether your review is positive, negative, or neutral.</p>
+        </div>
+        <div class="button-container">
+            <a href="/submit">Submit Your Review</a>
+        </div>
+    </div>
+</body>
+</html>
