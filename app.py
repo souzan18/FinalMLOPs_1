@@ -23,7 +23,7 @@ def submit():
 @app.route('/predict', methods=['POST'])
 def predict():
     # Load the trained model
-    clf = joblib.load('cnnv2.pkl')
+    clf = tf.keras.models.load_model('cnnv22.h5')
     tokenizer = joblib.load('tokenizer_1.pkl')
     le = joblib.load('le.pkl')
     
