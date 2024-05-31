@@ -14,7 +14,7 @@ This application performs sentiment analysis on product reviews. Users can input
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/sentiment-analysis-app.git
+    git clone https://github.com/souzan18/sentimentanalysisapp.git
     cd sentiment-analysis-app
     ```
 
