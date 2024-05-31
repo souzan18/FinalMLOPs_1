@@ -80,4 +80,25 @@ The home page provides instructions on how to use the application. It includes g
 - "Loved it!!! <3 <3 <3"
 
 ## Directory Structure
+├── app.py
+├── templates
+│ ├── home.html
+│ ├── submit.html
+├── static
+│ └── (if you have any static files like CSS or JS)
+├── cnnv2.pkl
+├── tokenizer_1.pkl
+├── le.pkl
+├── requirements.txt
+└── README.md
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+
+## Contact
+
+For any questions or suggestions, please contact Souzan.ismail21d@eslsca.edu.eg.
+
 
