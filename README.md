@@ -12,6 +12,8 @@ This application performs sentiment analysis on product reviews. Users can input
 
 ## Setup and Installation
 
+### Local Setup
+
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/souzan18/FinalMLOPs_1.git
@@ -43,7 +45,7 @@ This application performs sentiment analysis on product reviews. Users can input
   
     These files should be placed in the root directory of the project.
 
-## Running the Application
+### Running the Application Locally
 
 1. **Start the Flask application**:
     ```sh
@@ -51,6 +53,23 @@ This application performs sentiment analysis on product reviews. Users can input
     ```
 
 2. **Open your browser and navigate to**:
+    ```
+    http://localhost:5000
+    ```
+
+### Docker Setup
+
+1. **Build the Docker image**:
+    ```sh
+    docker build -t my-flask-app .
+    ```
+
+2. **Run the Docker container**:
+    ```sh
+    docker run -p 5000:5000 my-flask-app
+    ```
+
+3. **Open your browser and navigate to**:
     ```
     http://localhost:5000
     ```
@@ -78,6 +97,9 @@ The home page provides instructions on how to use the application. It includes g
 - "Great product! 100% satisfied!! #awesome"
 - "The price was $299.99 but totally worth it!!"
 - "Loved it!!! <3 <3 <3"
+
+
+
 
 ## Directory Structure
 ├── app.py
