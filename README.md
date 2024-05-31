@@ -106,8 +106,6 @@ The home page provides instructions on how to use the application. It includes g
 ├── templates
 │ ├── home.html
 │ ├── submit.html
-├── static
-│ └── (if you have any static files like CSS or JS)
 ├── cnnv2.pkl
 ├── tokenizer_1.pkl
 ├── le.pkl
