@@ -97,8 +97,5 @@ The home page provides instructions on how to use the application. It includes g
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 
-## Contact
-
-For any questions or suggestions, please contact Souzan.ismail21d@eslsca.edu.eg.
 
 
