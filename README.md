@@ -14,8 +14,8 @@ This application performs sentiment analysis on product reviews. Users can input
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/souzan18/FinalMLOPs.git
-    cd FinalMLOPs
+    git clone https://github.com/souzan18/FinalMLOPs_1.git
+    cd FinalMLOPs_1
     ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
